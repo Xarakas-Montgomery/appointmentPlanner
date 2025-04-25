@@ -1,0 +1,45 @@
+import React from "react";
+
+export const ContactForm = ({
+  name,
+  setName,
+  phone,
+  setPhone,
+  email,
+  setEmail,
+  handleSubmit
+}) => {
+  return (
+      <form onSubmit={handleSubmit}>
+        <label>
+          <input 
+          type='text' 
+          value={name} 
+          onChange={(e) => setName(e.target.value)}
+          placeholder='Name'
+          required/>
+        </label>
+
+        <label>
+          <input 
+          type='tel' 
+          value={phone} 
+          onChange={(e) => setPhone(e.target.value)}
+          placeholder='Phone Number'
+          pattern="[03][0-9]{8,9}"
+          required/>
+        </label>
+        <label>
+          <input 
+          type='email' 
+          value={email} 
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder='Email'
+          required/>
+        </label>
+
+          <input type='submit' value="Add Contact" aria-label="Add Contact"/>
+      </form>
+  );
+};
+
