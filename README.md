@@ -1,10 +1,37 @@
-# Getting Started with Create React App
+# Codecademy Appointment Planner Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Project Goals](#project-goals)
+- [Built with](#built-with)
+- [How to use](#how-to-use)
+- [Challenges and Credits](#challenges-and-credits)
 
-In the project directory, you can run:
+## Project Goals
+
+I. **Project Context**
+
+- In this project, you will build a React web application called Appointment Planner. You will use your knowledge of React components, state, and requests to build a website that allows users to create new contacts and requests appointments. Based on the data given, the app should fetch those data and store them to allow users to connect their appontment with the contact that they have created.
+  
+II. **Project Features**
+
+- Create new contact
+- Create new Appointment
+
+## Built with
+
+- React
+- Git, GitHub
+
+## How to use
+
+- Run the app;
+- Create 'New Contact';
+- Book or Create an Appointment;
+- App gives the ability to show all the contacts created to appear as a list when you try to book an appointment and connect them if the contacts exist;
+- Check 'The already exist' if you try to give a new contact with same name
+
+II. **In the project directory, you can run:**
 
 ### `npm start`
 
@@ -39,32 +66,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Challenges and Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This was a practice project from the full stack program at Codeacademy.
 
 ### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
